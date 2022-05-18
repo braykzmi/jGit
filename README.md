@@ -32,7 +32,7 @@ To use:
 
 	4. Input any command (command list below), the source directory is set up as the working version control directory
 
-Commands: in the form of java jGit.Main [Command] [Operands]
+Commands: in the form of java jGit.Main [Command] [Operands]  <br />
 	init 				- initializes a version control system in src directory, creates .jgitrepo directory <br />
 	add [filename] 			- adds a copy of the file as it currently exists into the staging area <br />
 	commit [message]		- saves a snapshot of tracked file under a SHA-1 ID and commit message [message] <br />
