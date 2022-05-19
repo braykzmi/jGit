@@ -43,18 +43,18 @@ Example:
 
 Commands:
 
-	init 				        - initializes a version control system in src directory, creates .jgitrepo directory <br />
-	add [filename] 			    - adds a copy of the file as it currently exists into the staging area <br />
-	commit [message]		    - saves a snapshot of tracked file under a SHA-1 ID and commit message [message] <br />
-	rm [filename]			    - removes file from staging area <br />
-	log				            - prints out log starting from head commit <br />
-	global-log			        - prints out log starting from head commit, showing every commit ever made <br />
-	status				        - displays branches, marking current branch with an asterisk, shows staged files,  <br />
-					               removed files, modified not yet staged files, and untracked files <br />
+	init 				- initializes a version control system in src directory, creates .jgitrepo directory <br />
+	add [filename] 			- adds a copy of the file as it currently exists into the staging area <br />
+	commit [message]		- saves a snapshot of tracked file under a SHA-1 ID and commit message [message] <br />
+	rm [filename]			- removes file from staging area <br />
+	log			        - prints out log starting from head commit <br />
+	global-log			- prints out log starting from head commit, showing every commit ever made <br />
+	status				- displays branches, marking current branch with an asterisk, shows staged files,  <br />
+					  removed files, modified not yet staged files, and untracked files <br />
 	checkout --[filename]		- takes version of file as it exists in the head commit and adds it to the working directory <br />
 	checkout [id] --[filename]	- takes version of file of commit id [id] and adds it to the working directory <br />
 	checkout [branchname]		- switches branches to [branchname] <br />
-	branch [branchname]		    - creates branch with name [branchname] <br />
+	branch [branchname]		- creates branch with name [branchname] <br />
 	rm-branch [branchname]		- removes branch with name [branchname] <br />
-	reset [id]			        - checks out all files at that commit id <br />
-	merge [branchname]		    - merges branch [branchname] with current branch <br />
+	reset [id]		        - checks out all files at that commit id <br />
+	merge [branchname]  		- merges branch [branchname] with current branch <br />
